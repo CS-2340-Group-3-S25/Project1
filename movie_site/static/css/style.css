@@ -1,6 +1,5 @@
 .bg-index{
-  background: url("/movie_site/static/img/background.jpg") no-repeat
-    fixed;
+  background: url("/movie_site/static/img/background.jpg") no-repeat fixed;
   background-size: 100% auto;
 }
 .navbar a.nav-link {
@@ -30,4 +29,12 @@
 }
 .ms-footer-bottom a:hover {
   color: #fff;
+}
+.img-card-200 {
+  width: fit-content;
+  max-height: 200px;
+}
+.img-card-400 {
+  width: fit-content;
+  max-height: 400px;
 }
