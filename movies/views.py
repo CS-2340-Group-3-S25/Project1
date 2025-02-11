@@ -26,7 +26,7 @@ def show(request, id):
     template_data["title"] = movie.name
     template_data["movie"] = movie
     template_data["reviews"] = reviews
-    return render(request, "movies/show.html", {"template_data": template_data})
+    return render(request, "movies/movie_list.html", {"template_data": template_data})
 
 
 @login_required
