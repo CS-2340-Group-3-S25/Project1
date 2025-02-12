@@ -6,6 +6,10 @@
 - `python manage.py migrate`
 - `python manage.py runserver`
 
+### Load initial data:
+
+- `python manage.py loaddata movies.json`
+
 ### Windows:
 
 - winget install Oracle.MySQL
