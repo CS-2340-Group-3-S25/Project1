@@ -1,0 +1,12 @@
+[
+{
+  "model": "movies.review",
+  "pk": 2,
+  "fields": {
+    "comment": "new movie cool",
+    "date": "2025-02-12T23:13:34.390Z",
+    "movie": 396,
+    "user": 1
+  }
+}
+]

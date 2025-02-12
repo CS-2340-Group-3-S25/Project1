@@ -29,3 +29,8 @@ class Review(models.Model):
 
     def __str__(self):
         return str(self.id) + " - " + self.movie.name
+
+    @classmethod
+    def load_initial_data(cls):
+        if not cls.objects.exists():
+            call_command("loaddata", "reviews.json", app_label="movies")
