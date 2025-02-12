@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.core.management import call_command
 
 
 # Create your models here.
@@ -12,6 +13,11 @@ class Movie(models.Model):
 
     def __str__(self):
         return str(self.id) + " - " + self.name
+
+    @classmethod
+    def load_initial_data(cls):
+        if not cls.objects.exists():
+            call_command("loaddata", "movies.json", app_label="movies")
 
 
 class Review(models.Model):
