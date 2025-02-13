@@ -3,13 +3,18 @@ from django.contrib.auth.models import User
 from django.core.management import call_command
 
 
-# Create your models here.
+def rename_image_path(instance, extension):
+    safe_name = instance.name.replace(" ", "_")
+    filename = f"{safe_name}.jpg"
+    return f"movie_images/{filename}"
+
+
 class Movie(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=255)
     price = models.IntegerField()
     description = models.TextField()
-    image = models.ImageField(upload_to="movie_images/")
+    image = models.ImageField(upload_to=rename_image_path)
 
     def __str__(self):
         return str(self.id) + " - " + self.name
