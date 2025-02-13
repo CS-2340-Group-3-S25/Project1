@@ -9,6 +9,7 @@
 ### Load initial data:
 
 - `python manage.py loaddata movies.json`
+- `python manage.py loaddata reviews.json`
 
 ### Windows:
 
