@@ -19,9 +19,18 @@ def index(request):
     template_data['cart_total'] = cart_total
     return render(request, 'cart/index.html',
         {'template_data': template_data})
-def add(request, id):
+#def add(request, id):
+    #get_object_or_404(Movie, id=id)
+    #cart = request.session.get('cart', {})
+    #cart[id] = request.POST['quantity']
+    #request.session['cart'] = cart
+    #return redirect('home.index')
+def add_to_cart(request, id):
     get_object_or_404(Movie, id=id)
     cart = request.session.get('cart', {})
     cart[id] = request.POST['quantity']
     request.session['cart'] = cart
-    return redirect('home.index')
+    return redirect('cart.index')
+def clear(request):
+    request.session['cart'] = {}
+    return redirect('cart.index')
