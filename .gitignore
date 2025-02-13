@@ -173,7 +173,7 @@ cython_debug/
 
 /bin/
 
-.idea/
+/.idea/
 
 .vscode/
 
