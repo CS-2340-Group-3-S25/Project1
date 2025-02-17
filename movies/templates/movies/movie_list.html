@@ -80,6 +80,11 @@
           </div>
         </div>
         {% endif %}
+          <p class="card-text">
+          <form method="post"
+            action="{% url 'cart.add' id=template_data.movie.id %}">
+          </form>
+        </p>
       </div>
       <div class="col-md-6 mx-auto mb-3 text-center">
         <img
