@@ -52,7 +52,13 @@ class CustomUserCreationForm(UserCreationForm):
 
 class SecurityQuestionForm(forms.Form):
     security_answer = forms.CharField(
-        max_length=255, widget=forms.TextInput(attrs={"placeholder": "Answer"})
+        max_length=255,
+        widget=forms.TextInput(
+            attrs={
+                "placeholder": "Answer",
+                "style": "width: 100%; padding: .75rem .75rem; font-size: 1rem; line-height: 1.5; border: 1px solid #bdbdbd; border-radius: .25rem; margin-top: 10px;",
+            }
+        ),
     )
 
 
