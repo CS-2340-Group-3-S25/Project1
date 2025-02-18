@@ -32,18 +32,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'accounts',
-    'movies',
-    'home',
-    'cart'
-
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
+    "accounts",
+    "movies",
+    "home",
+    "cart",
 ]
 
 MIDDLEWARE = [
@@ -88,10 +86,10 @@ WSGI_APPLICATION = "movie_site.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "movie_site_db",
-        "USER": "superuser",
-        "PASSWORD": "",
-        "HOST": "localhost",
+        "NAME": "vsenthil31$default",
+        "USER": "vsenthil31",
+        "PASSWORD": "Ilove2340",
+        "HOST": "vsenthil31.mysql.pythonanywhere-services.com",
         "PORT": "3306",
     }
 }
