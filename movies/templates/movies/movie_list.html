@@ -83,8 +83,9 @@
       </div>
       <div class="col-md-6 mx-auto mb-3 text-center">
         <img
-          src="/media/movie_images/{{ template_data.movie.name }}.jpg"
+          src="{% if template_data.movie.image %}{{ template_data.movie.image.url }}{% else %}{% static 'images/default-movie.jpg' %}{% endif %}"
           class="rounded w-48 h-full"
+          alt="{{ template_data.movie.name }}"
         />
       </div>
     </div>
