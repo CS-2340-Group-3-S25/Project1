@@ -19,7 +19,7 @@
                 </div>
               </div>
               <div class="col-auto">
-                <button class="btn text-white" style="background-color: #003057; border-color: #003057;" type="submit">Add to cart</button>
+                <button class="btn bg-dark text-white" type="submit">Add to cart</button>
               </div>
             </div>
           </form>
@@ -34,7 +34,7 @@
             <p class="card-text">{{ review.comment }}</p>
             {% if user.is_authenticated and user == review.user %}
             <a
-              class="btn btn-primary"
+              class="btn bg-dark text-white"
               href="{% url 'movies.edit_review' id=template_data.movie.id review_id=review.id %}"
               >Edit
             </a>
