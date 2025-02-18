@@ -6,7 +6,7 @@
       "name": "The Cotton Club",
       "price": 14,
       "description": "The Cotton Club was a famous night club in Harlem. The story follows the people that visited the club, those that ran it, and is peppered with the Jazz music that made it so famous.",
-      "image": "./media/movie_images/The Cotton Club.jpg"
+      "image": "movie_images/The_Cotton_Club.jpg"
     }
   },
   {
@@ -16,7 +16,7 @@
       "name": "Crocodile Dundee",
       "price": 14,
       "description": "An American reporter goes to the Australian outback to meet an eccentric crocodile poacher and invites him to New York City.",
-      "image": "./media/movie_images/Crocodile Dundee.jpg"
+      "image": "movie_images/Crocodile_Dundee.jpg"
     }
   },
   {
@@ -26,7 +26,7 @@
       "name": "Ratatouille",
       "price": 29,
       "description": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous restaurant.",
-      "image": "./media/movie_images/Ratatouille.jpg"
+      "image": "movie_images/Ratatouille_zz7uVpK.jpg"
     }
   },
   {
@@ -36,7 +36,7 @@
       "name": "City of God",
       "price": 13,
       "description": "Two boys growing up in a violent neighborhood of Rio de Janeiro take different paths: one becomes a photographer, the other a drug dealer.",
-      "image": "./media/movie_images/City of God.jpg"
+      "image": "movie_images/City_of_God.jpg"
     }
   },
   {
@@ -46,7 +46,7 @@
       "name": "Stardust",
       "price": 26,
       "description": "In a countryside town bordering on a magical land, a young man makes a promise to his beloved that he'll retrieve a fallen star by venturing into the magical realm.",
-      "image": "./media/movie_images/Stardust.jpg"
+      "image": "movie_images/Stardust_1jAaFHY.jpg"
     }
   },
   {
@@ -56,7 +56,7 @@
       "name": "Apocalypto",
       "price": 11,
       "description": "As the Mayan kingdom faces its decline, the rulers insist the key to prosperity is to build more temples and offer human sacrifices. Jaguar Paw, a young man captured for sacrifice, flees to avoid his fate.",
-      "image": "./media/movie_images/Apocalypto.jpg"
+      "image": "movie_images/Apocalypto_KjinaVJ.jpg"
     }
   },
   {
@@ -66,7 +66,7 @@
       "name": "No Country for Old Men",
       "price": 22,
       "description": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
-      "image": "./media/movie_images/No Country for Old Men.jpg"
+      "image": "movie_images/No_Country_for_Old_Men.jpg"
     }
   },
   {
@@ -76,7 +76,7 @@
       "name": "The Third Man",
       "price": 17,
       "description": "Pulp novelist Holly Martins travels to shadowy, postwar Vienna, only to find himself investigating the mysterious death of an old friend, Harry Lime.",
-      "image": "./media/movie_images/The Third Man.jpg"
+      "image": "movie_images/The_Third_Man.jpg"
     }
   },
   {
@@ -86,7 +86,7 @@
       "name": "The Beach",
       "price": 17,
       "description": "Twenty-something Richard travels to Thailand and finds himself in possession of a strange map. Rumours state that it leads to a solitary beach paradise, a tropical bliss - excited and intrigued, he sets out to find it.",
-      "image": "./media/movie_images/The Beach.jpg"
+      "image": "movie_images/The_Beach.jpg"
     }
   },
   {
@@ -96,7 +96,7 @@
       "name": "Scarface",
       "price": 21,
       "description": "In Miami in 1980, a determined Cuban immigrant takes over a drug cartel and succumbs to greed.",
-      "image": "./media/movie_images/Scarface.jpg"
+      "image": "movie_images/Scarface_vmVc4l6.jpg"
     }
   },
   {
@@ -106,7 +106,7 @@
       "name": "Sid and Nancy",
       "price": 26,
       "description": "Morbid biographical story of Sid Vicious, bassist with British punk group the Sex Pistols, and his girlfriend Nancy Spungen. When the Sex Pistols break up after their fateful US tour, ...",
-      "image": "./media/movie_images/Sid and Nancy.jpg"
+      "image": "movie_images/Sid_and_Nancy.jpg"
     }
   },
   {
@@ -116,7 +116,7 @@
       "name": "Black Swan",
       "price": 30,
       "description": "A committed dancer wins the lead role in a production of Tchaikovsky's \"Swan Lake\" only to find herself struggling to maintain her sanity.",
-      "image": "./media/movie_images/Black Swan.jpg"
+      "image": "movie_images/Black_Swan.jpg"
     }
   },
   {
@@ -126,7 +126,7 @@
       "name": "Inception",
       "price": 26,
       "description": "A thief, who steals corporate secrets through use of dream-sharing technology, is given the inverse task of planting an idea into the mind of a CEO.",
-      "image": "./media/movie_images/Inception.jpg"
+      "image": "movie_images/inception_q6qckoZ.jpeg"
     }
   },
   {
@@ -136,7 +136,7 @@
       "name": "Chasing Amy",
       "price": 15,
       "description": "Holden and Banky are comic book artists. Everything's going good for them until they meet Alyssa, also a comic book artist. Holden falls for her, but his hopes are crushed when he finds out she's gay.",
-      "image": "./media/movie_images/Chasing Amy.jpg"
+      "image": "movie_images/Chasing_Amy.jpg"
     }
   },
   {
@@ -146,7 +146,7 @@
       "name": "The Silence of the Lambs",
       "price": 15,
       "description": "A young F.B.I. cadet must confide in an incarcerated and manipulative killer to receive his help on catching another serial killer who skins his victims.",
-      "image": "./media/movie_images/The Silence of the Lambs.jpg"
+      "image": "movie_images/The_Silence_of_the_Lambs.jpg"
     }
   },
   {
@@ -156,7 +156,7 @@
       "name": "Midnight Express",
       "price": 22,
       "description": "Billy Hayes, an American college student, is caught smuggling drugs out of Turkey and thrown into prison.",
-      "image": "./media/movie_images/Midnight Express.jpg"
+      "image": "movie_images/Midnight_Express.jpg"
     }
   },
   {
@@ -166,7 +166,7 @@
       "name": "Pulp Fiction",
       "price": 29,
       "description": "The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
-      "image": "./media/movie_images/Pulp Fiction.jpg"
+      "image": "movie_images/Pulp_Fiction.jpg"
     }
   },
   {
@@ -176,7 +176,7 @@
       "name": "Rear Window",
       "price": 16,
       "description": "A wheelchair-bound photographer spies on his neighbours from his apartment window and becomes convinced one of them has committed murder.",
-      "image": "./media/movie_images/Rear Window.jpg"
+      "image": "movie_images/Rear_Window.jpg"
     }
   }
 ]
