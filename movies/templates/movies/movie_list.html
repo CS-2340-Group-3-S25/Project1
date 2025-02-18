@@ -85,6 +85,7 @@
         <img
           src="{% if template_data.movie.image %}{{ template_data.movie.image.url }}{% else %}{% static 'images/default-movie.jpg' %}{% endif %}"
           class="rounded w-48 h-full"
+          style="max-width: 100%; height: auto;"
           alt="{{ template_data.movie.name }}"
         />
       </div>
