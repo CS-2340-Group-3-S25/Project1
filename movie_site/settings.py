@@ -86,10 +86,10 @@ WSGI_APPLICATION = "movie_site.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "vsenthil31$default",
-        "USER": "vsenthil31",
-        "PASSWORD": "Ilove2340",
-        "HOST": "vsenthil31.mysql.pythonanywhere-services.com",
+        "NAME": "movie_site_db",
+        "USER": "superuser",
+        "PASSWORD": "",
+        "HOST": "localhost",
         "PORT": "3306",
     }
 }
