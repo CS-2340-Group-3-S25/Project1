@@ -6,7 +6,7 @@
   <p class="mb-3 fst-italic">{{ security_question }}</p>
   <form method="post">
     {% csrf_token %} {{ form.as_p }}
-    <button type="submit"  class="btn text-white" style="background-color: #003057; border-color: #003057;">Verify</button>
+    <button type="submit"  class="btn bg-dark text-white">Verify</button>
   </form>
 </div>
 {% endblock %}
